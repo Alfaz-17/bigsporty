@@ -18,9 +18,12 @@ const ReviewCard = ({ name, role, text, rating }) => (
 
 const Reviews = () => {
     const reviews = [
-        { name: "Rahul Sharma", role: "Team Captain", text: "Best turf in the city! The bounce is consistent and the lighting is just perfect for night matches.", rating: 5 },
-        { name: "Amit Patel", role: "Regular Player", text: "Love the vibe here. The dugout is super comfy and the amenities are top notch. Highly recommended.", rating: 5 },
-        { name: "Suresh Raina", role: "Corporate League", text: "We organized our office tournament here. Great support from the staff and excellent facilities.", rating: 4 },
+        { name: "Vikram Singh", role: "Tournament Organizer", text: "The best turf we've played on! Perfect bounce and great grip.", rating: 5 },
+        { name: "Rohan Mehta", role: "Weekend Warrior", text: "Amazing atmosphere for night matches. The floodlights are pro-level.", rating: 5 },
+        { name: "Priya Desai", role: "Regular Player", text: "Clean facilities and safe environment. Love playing here with my team.", rating: 5 },
+        { name: "Aditya Jadeja", role: "Team Captain", text: "Great management and seamless booking experience. Our go-to spot.", rating: 5 },
+        { name: "Karan Vaghela", role: "Cricket Enthusiast", text: "The dugout seating is a nice touch. innovative and comfortable.", rating: 4 },
+        { name: "Arjun Odedra", role: "Coach", text: "High quality turf that is easy on the knees. Highly recommended.", rating: 5 },
     ];
 
   return (
