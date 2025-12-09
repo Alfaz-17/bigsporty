@@ -17,7 +17,7 @@ const Hero = () => {
       </nav>
       {/* Background Image Placeholder */}
       <div className="absolute inset-0 bg-black/60 z-10" />
-      <div className="absolute inset-0 bg-cover bg-center z-0" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2067&auto=format&fit=crop)' }}></div>
+      <div className="absolute inset-0 bg-cover bg-center z-0" style={{ backgroundImage: 'url(/hero.png)' }}></div>
       
       <div className="relative z-20 text-center text-white p-4">
         <motion.h1 

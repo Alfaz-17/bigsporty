@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, Instagram, MapPin, Clock } from 'lucide-react';
+import { Phone, Mail, Instagram, MapPin, Clock, ChartNoAxesColumnIncreasing } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <h4 className="font-bold mb-1">Address</h4>
-                            <p className="text-gray-400">123, Stadium Road, Sports Complex Area,<br/>Near Central Park, Mumbai - 400001</p>
+                            <p className="text-gray-400">Bhilwada circle ,<br/>Bhavnagar -364001</p>
                         </div>
                     </div>
                     <div className="flex items-start gap-4">
@@ -38,7 +38,7 @@ const Footer = () => {
                              <Phone className="w-4 h-4" /> <span>+91 81609 89597</span>
                          </a>
                            <a href="tel:+918160989597" className="flex items-center gap-2 px-4 py-2 bg-white/5 rounded hover:bg-neon-green hover:text-dark-navy transition-colors">
-                             <Phone className="w-4 h-4" /> <span>Talha Sheikh</span>
+                             <ChartNoAxesColumnIncreasing className="w-4 h-4" /> <span>Name : Talha Sheikh</span>
                          </a>
                          <a href="mailto:hello@booksporty.com" className="flex items-center gap-2 px-4 py-2 bg-white/5 rounded hover:bg-neon-green hover:text-dark-navy transition-colors">
                              <Mail className="w-4 h-4" /> <span>Email Us</span>
@@ -53,7 +53,7 @@ const Footer = () => {
                     <span className="text-gray-500 font-bebas text-2xl">MAP INTEGRATION</span>
                 </div>
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30767.33702166946!2d72.8258!3d19.0760!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1688556666666!5m2!1sen!2sin" 
+                    src="https://maps.google.com/maps?q=Bhavnagar,%20Gujarat&t=&z=13&ie=UTF8&iwloc=&output=embed"
                     width="100%" 
                     height="100%" 
                     style={{ border: 0 }} 

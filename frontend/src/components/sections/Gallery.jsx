@@ -3,12 +3,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn } from 'lucide-react';
 
 const images = [
-  'https://images.unsplash.com/photo-1540747913346-19e32dc3e96e?q=80&w=2670&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1624880357913-a8539238f454?q=80&w=2670&auto=format&fit=crop', // Cricket specific ideally, sticking to stadium/sport feeling
-  'https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2067&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1589487391730-58f20eb2c308?q=80&w=2674&auto=format&fit=crop', // Football turf often looks like cricket turf in pics
-  'https://images.unsplash.com/photo-1529900748604-07564a03e7a6?q=80&w=2670&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1459865264687-595d652de67e?q=80&w=2670&auto=format&fit=crop',
+  '/img1.jpg',
+  '/img2.jpg',
+  '/img3.jpg',
+  '/img4.jpg',
 ];
 
 const Gallery = () => {
