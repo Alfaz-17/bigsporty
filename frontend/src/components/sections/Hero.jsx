@@ -34,7 +34,7 @@ const Hero = () => {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="text-xl md:text-2xl font-light mb-8 max-w-2xl mx-auto text-gray-200"
         >
-          Experience cricket like never before under the lights. Professional turf, premium amenities, and pure adrenaline.
+          Experience cricket like never before under the lights. Professional turf, premium amenities, and pure adrenaline in Bhavnagar.
         </motion.p>
         <motion.div 
           initial={{ opacity: 0, scale: 0.8 }}
